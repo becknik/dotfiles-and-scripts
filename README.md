@@ -1,2 +1,2 @@
 # dotfiles-and-scripts
-My personal bash scripts and configuration files
+My personal bash scripts and configuration files.
