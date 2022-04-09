@@ -1,0 +1,17 @@
+# C++
+sys-dev/gcc objc++
+#sys-libs/glibc
+
+#sys-devel/clang
+# Due to random emerge upgrade issue:
+#sys-libs/libxcrypt abi_x86_32
+#virtual/libcrypt abi_x86_32
+#sys-devel/llvm
+
+# Rust
+dev-lang/rust clippy dist rls rust-src rustfmt system-bootstrap
+#code linter, bootstrapping, rust language server (IDEs), developer tools & build-std, formater, system-bootstrap
+
+# Java
+dev-java/openjdk gentoo-vm source
+#dev-java/openjdk-bin gentoo-vm

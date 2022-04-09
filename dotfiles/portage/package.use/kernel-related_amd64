@@ -1,0 +1,6 @@
+# Kernel Sources
+sys-kernel/gentoo-sources symlink initramfs
+
+# Firmware
+sys-kernel/linux-firmware initramfs redistributable
+sys-firmware/intell-microcode hostonly initramfs

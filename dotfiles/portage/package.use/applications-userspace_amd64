@@ -1,0 +1,48 @@
+## To be removed after testing finished:
+www-servers/nginx NGINX_MODULES_HTTP: fastcgi gzip
+
+
+## System Level
+# Gonme Apps
+app-arch/file-roller -libnotify
+gnome-base/nautilus -previewer
+gnome-base/gedit -spell
+
+# Pavucontrol
+dev-cpp/gtkmm X
+
+# KeepassXC
+app-admin/keepassxc browser network
+
+# TexLive
+app-text/texlive science publishers graphics extra
+app-text/texlive-core cjk xetex
+
+
+## User Level:
+# Libreoffice
+app-office/libreoffice pdfimport java -eds
+
+# Mozilla
+www-client/firefox hwaccel screencast system-png geckodriver
+media-libs/libpng apng
+x11-libs/cairo X
+mail-client/thunderbird hwaccel system-png
+media-libs/libvp postproc pgo #?
+
+# VBox
+media-libs/libsdl X
+x11-libs/libdrm	libkms
+app-emulation/virtualbox qt5
+
+# Torbrowser
+app-crypt/gpgme	python
+dev-qt/qtmultimedia widgets
+
+# VLC
+media-video/vlc qt5 x265 X
+x11-libs/libva X
+
+# Chromium
+#www-client/chromium -system-png
+#net-libs/nodejs inspector

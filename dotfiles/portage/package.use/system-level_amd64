@@ -1,0 +1,67 @@
+## Profile Changes
+# Gnome OpenRC -> Desktop OpenRC
+media-libs/libsdl2 gles2
+media-libs/clutter egl
+# Useless?:
+#dev-libs/libical dev-libs/libgdata gnome-extra/evolution-data-server vala
+
+# Desktop -> Default OpenRC
+dev-qt/qtgui egl
+app-arch/unzip natspec
+media-libs/flac ogg
+media-libs/libmpeg2 sdl
+media-sound/mpg123 sdl
+dev-libs/zziplib sdl
+media-libs/libsdl xv
+gnome-base/gvfs udisks
+media-gfx/eog lcms
+# opus codec due to telegram-desktop
+media-video/ffmpeg vorbis xvid sdl opus
+media-plugins/gst-plugins-meta ogg vorbis
+#media-plugins/gst-plugins-meta -a52 -aac -cdda -dts -dvd
+media-video/vlc ogg mad
+#media-video/vlc -a52 -dts -dvd
+app-misc/tracker-miners exif
+app-text/poppler cairo
+
+
+## Administration
+app-admin/sudo offensive -sendmail
+net-firewall/firewalld gui
+net-firewall/nftables xtables python json
+
+
+## Video (mainly acceleration)
+media-libs/mesa X xa
+x11-drivers/xf86-video-intel sna uxa xvmc
+x11-base/xwayland xcsecurity
+
+
+## Shells
+dev-libs/libpcre2 pcre32 #UTF-32 chars support
+
+
+## UI
+# Gnome
+sys-apps/dbus X
+x11-libs/gtk+ X
+media-libs/libepoxy X
+x11-libs/libxkbcommon X
+>=net-fs/samba-4.15.4-r2 client
+# Gnome 42.0
+gui-libs/gtk X
+
+# Qt
+app-text/poppler qt5
+dev-qt/qtgui eglfs linuxfb vnc X
+dev-qt/qtsingleapplication X
+app-shells/runtitle minizip
+sys-libs/zlib minizip
+
+# Flatpak
+sys-apps/flatpak seccomp plicykit
+
+
+## Tinkering & Minimalization
+dev-lang/perl minimal
+dev-perl/* minimal

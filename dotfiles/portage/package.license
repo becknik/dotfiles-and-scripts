@@ -1,0 +1,16 @@
+# Firmware
+sys-kernel/linux-firmware	@BINARY-REDISTRIBUTABLE
+sys-firmware/intel-microcode	intel-ucode
+
+# Japanese
+media-fonts/kochi-substitute    free-noncomm
+media-fonts/ja-ipafonts         IPAfont
+
+# IDEA
+#dev-util/idea-community	codehaus-classworlds
+
+# Discord
+net-im/discord-bin	all-rights-reserved
+
+# ._.
+www-client/google-chrome	google-chrome

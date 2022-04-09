@@ -1,0 +1,9 @@
+*/*::mv
+#*/*::src_prepare-overlay
+
+# Profile Sync Daemon due to OpenRC supoort dropp
+>=www-misc/profile-sync-daemon-5.76
+
+# Compilation errors:
+#=dev-libs/gjs-1.71.1
+#=x11-libs/pango-1.50.6

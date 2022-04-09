@@ -1,0 +1,65 @@
+# Kernel Sources
+sys-kernel/gentoo-sources ~amd64
+
+# LTOize Overlay with gcc Graphite USE:
+sys-config/ltoize ~amd64
+app-portage/portage-bashrc-mv::mv ~amd64
+app-shells/runtitle::mv ~amd64
+sys-devel/ggc ~amd64
+#sys-libs/glibc ~amd64 Not a good idea :(
+
+
+# Firefox
+www-client/firefox ~amd64
+dev-libs/nss ~amd64
+media-libs/dav1d ~amd64
+
+# Torbrowser
+www-client/torbrowser-launcher ~amd64
+
+# Messengers
+net-im/whatsapp-desktop-bin ~amd64
+net-im/telegram-desktop-bin ~amd64
+net-im/discord-bin ~amd64
+net-im/element-desktop-bin ~amd64
+
+# IDEs
+app-editors/vscodium ~amd64
+dev-util/idea-community ~amd64
+#dev-util/eclipse-sdk-bin ~amd64
+
+
+# Gnome unstable -> Too unstable (HAHA!)
+#dev-libs/gjs ~amd64
+#gnome-base/gnome-control-center ~amd64
+#gnome-base/gnome-core-libs ~amd64
+#gnome-base/gnome-session ~amd64
+#gnome-base/gnome-settings-daemon ~amd64
+#gnome-base/gnome-shell ~amd64
+#gnome-base/gvfs	~amd64
+#gnome-base/nautilus ~amd64
+#media-fonts/cantarell ~amd64
+#x11-terms/gnome-terminal ~amd64
+#x11-themes/adwaita-icon-theme ~amd64
+#x11-themes/gnome-backgrounds ~amd64
+#x11-themes/gnome-themes-standard ~amd64
+#x11-wm/mutter ~amd64
+#gnome-base/gdm ~amd64
+#gnome-base/gnome-desktop ~amd64
+#gnome-base/gsettings-desktop-schemas ~amd64
+
+# Gnome 42.0
+#x11-libs/vte ~amd64
+#media-libs/gexiv2 ~amd64
+#gui-libs/libhandy ~amd64
+#dev-libs/libgweather ~amd64
+#gui-libs/libadwaita ~amd64
+#net-libs/libnma ~amd64
+#dev-lang/spidermonkey ~amd64
+
+# -> gnome-extensions-app
+#gnome-extra/gnome-shell-extensions ~amd64
+#x11-libs/gtk+ ~amd64
+#gui-libs/gtk ~amd64
+#x11-libs/pango ~amd64
+#dev-cpp/pangomm ~amd64

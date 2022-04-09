@@ -1,0 +1,3 @@
+# LTO (don't even know if this really works and is not conflicting with the package.mask file...)
+app-portage/portage-bashrc-mv::mv
+app-shells/runtitle::mv
